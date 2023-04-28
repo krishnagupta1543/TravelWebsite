@@ -1,0 +1,82 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+    font-weight:bolder;
+}
+#main{
+    padding:9%;
+    background-size: cover;
+    background-image: url("./assets/img-2.jpg");
+    height: 90vh;
+}
+.small-heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    font-size: 3rem;
+    color:white;
+}
+.large-heading{
+    font-family: 'Roboto', sans-serif;
+    font-weight:bolder;
+    font-size: 5rem;
+    color:white;
+}
+
+/* ----------------------------service------------------------------------------ */
+#service{
+    padding-top:5%;
+}
+#service .card{
+    margin: 20px;
+}
+
+/* -------------------------location-------------------------------------------------------- */
+/* .more{
+    display:none;
+} */
+
+.col-content{
+    position: relative;
+    filter:brightness(80%);
+    transition: all 0.3s cubic-bezier(0.445,0.05,0.55,0.95);
+
+}
+
+.col-content img{
+    margin-bottom: 40px;
+    height: 500px;
+    border-radius: 27px;
+    width: 100%;
+    
+}
+
+.col-content h5{
+    position: absolute;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+    left: 20px;
+    bottom: 105px;
+    cursor: pointer;
+}
+
+.col-content p{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    left: 20px;
+    bottom: 80px;
+    cursor: pointer;
+}
+
+.col-content:hover{
+    filter: brightness(120%);
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+#footer{
+    height: 200px;
+}
